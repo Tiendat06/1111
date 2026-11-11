@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gửi người anh thương 💌</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hearts"></div>
+
+  <!-- Màn hình nhập mã -->
+  <section id="lock" class="card">
+    <div class="icon">🔒</div>
+    <h1>Nhập mã để mở</h1>
+    <form id="lockForm">
+      <input id="code" type="password" inputmode="numeric" placeholder="••••" autocomplete="off" autofocus>
+      <button type="submit">Mở 💗</button>
+    </form>
+    <p id="error" class="error"></p>
+  </section>
+
+  <!-- Nội dung -->
+  <section id="main" class="card hidden">
+    <p id="message"></p>
+    <audio id="audio" src="45878c12-0614-4569-9ee9-2516acf1451f_abc.mp3" controls loop></audio>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
